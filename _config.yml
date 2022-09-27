@@ -1,3 +1,4 @@
+
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
@@ -12,8 +13,14 @@ tagline:          'Dateien & Mitschriften für Berufsschule'
 description:      'Dateien und Mitschriften der Berufsschule zum Lernen für Tests oder wenn man krank war'
 url:              https://semoxea.github.io
 baseurl:          ""
+github_username:  jekyll
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
+
+# Build settings
+theme: hyde
+plugins:
+  - jekyll-feed
