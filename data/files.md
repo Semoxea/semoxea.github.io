@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Files
+title: Dateien
 ---
 
-## Dateien
-
-### Index
+## Index
 
 - [Englisch](#englisch)
 - [Politik und Gesellschaft](#politik-und-gesellschaft)
