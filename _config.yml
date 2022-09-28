@@ -3,12 +3,15 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+collections:
+  my_collection:
+    output: true
+    permalink: /:path/:name
 
 # Setup
-title:            Berufsschuldateien
-tagline:          'Dateien & Mitschriften für Berufsschule'
-description:      'Dateien und Mitschriften der Berufsschule zum Lernen für Tests oder wenn man krank war'
+title:            Mitschrift
+tagline:          ''
+description:      'Dateien & Mitschriften IFS12D'
 url:              https://semoxea.github.io
 baseurl:          ""
 github_username:  jekyll
