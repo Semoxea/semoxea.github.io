@@ -15,12 +15,15 @@ title: Dateien
 
 ### Englisch
 
+- [Jobangebot Text](files/Eng/ApplicationText.pdf)
+- [Jobangebot AB](files/Eng/ApplicationAB.pdf)
+
 ---
 
 ### Politik und Gesellschaft
 
-- [Bedürfnisse Text](/PuG/ABBeduerfnisse.pdf)
-- [Bedürfnisse AB](/PuG/TextBeduerfnisse.pdf)
+- [Bedürfnisse Text](files/PuG/ABBeduerfnisse.pdf)
+- [Bedürfnisse AB](files/PuG/TextBeduerfnisse.pdf)
 
 ---
 
