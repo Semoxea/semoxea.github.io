@@ -22,8 +22,8 @@ title: Dateien
 
 ### Politik und Gesellschaft
 
-- [Bedürfnisse Text](files/PuG/ABBeduerfnisse.pdf)
-- [Bedürfnisse AB](files/PuG/TextBeduerfnisse.pdf)
+- [Bedürfnisse Text](files/PuG/TextBeduerfnisse.pdf)
+- [Bedürfnisse AB](files/PuG/ABBeduerfnisse.pdf)
 
 ---
 
