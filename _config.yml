@@ -12,8 +12,8 @@ collections:
 title:            Mitschrift
 tagline:          'IFS12D'
 description:      'Dateien & Mitschriften IFS12D'
-url:              https://semoxea.github.io
-baseurl:          "/"
+url:              https://semoxea.github.io/
+baseurl:          ""
 github_username:  jekyll
 
 paginate:         5
