@@ -10,7 +10,7 @@ collections:
 
 # Setup
 title:            Mitschrift
-tagline:          ''
+tagline:          'IFS12D'
 description:      'Dateien & Mitschriften IFS12D'
 url:              https://semoxea.github.io
 baseurl:          "/index.html"
