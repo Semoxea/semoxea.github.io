@@ -23,7 +23,9 @@ title: Dateien
 ### Politik und Gesellschaft
 
 - [Bedürfnisse Text](files/PuG/TextBeduerfnisse.pdf)
+- [Vertragsarten Text](files/PuG/TextVertragsarten.pdf)
 - [Bedürfnisse AB](files/PuG/ABBeduerfnisse.pdf)
+- [Vertragsarten AB](files/PuG/ABVertragsarten.pdf)
 
 ---
 
