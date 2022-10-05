@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ITS-GR KW39
+title: ITS-GR Block 1
 ---
 
 ## Betriebssysteme
@@ -77,3 +77,33 @@ Beispiel: Paket wird von PC 1 in internem Netz an Server 1 in externem Netz gesc
 
 - Selber Vorgang wie bei PAT, allerdings kann immer nur eine IP-Addresse ersetzt werden
 - Agiert nur auf IP-Addressen-Basis, ohne Ports
+
+## Backup
+
+### Vollsicherung
+
+|Vorteile|Nachteile|
+|--|--|
+|||
+
+### Differentielle Sicherung
+
+Eine Vollsicherung wird als Basis zur differentiellen Sicherung benötigt.
+
+|Vorteile|Nachteile|
+|--|--|
+|Point-In-Time Recovery ab letzter Vollsicherung|Für Recovery ist Vollsicherung und differentielle Sicherung notwendig|
+|weniger Zeitaufwand|Doppelte Datensicherung (Datensatz wurde in dem Zeitraum mehrmals geändert)|
+
+### Inkrementelle Sicherung
+
+Eine Sicherung wird als Basis zur inkrementellen Sicherung benötigt, da immer nur die Änderungen zur letzten Sicherung gesichert werden.
+
+|Vorteile|Nachteile|
+|--|--|
+|Backup benötigt weniger Speicherplatz|alle inkrementellen Sicherungen werden zur Recovery benötigt|
+|sehr schnelle Backuperstellung||
+
+### Archivbit
+
+Das Archivbit (auch Archiv-Attribut) ist ein Dateiattribut, das in Microsoft-Betriebssystemen genutzt wird, um neu angelegte oder veränderte Dateien zu kennzeichnen. Datensicherungsprogrammen kann damit signalisiert werden, dass die Datei noch nicht gesichert bzw. seit der letzten Sicherung modifiziert wurde.

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PuG KW39
+title: PuG Block 1
 ---
 
 ## Wegwerfgesellschaft

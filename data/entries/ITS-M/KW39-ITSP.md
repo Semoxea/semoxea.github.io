@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ITS-M-P KW39
+title: ITS-M-P Block 1
 ---
 
 ## Routerkonfiguration
