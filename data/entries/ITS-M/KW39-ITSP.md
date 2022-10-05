@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ITS-M-P Block 1
+title: 1 ITS-M-P
 ---
 
 ## Routerkonfiguration

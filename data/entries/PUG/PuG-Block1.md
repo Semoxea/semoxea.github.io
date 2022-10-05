@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PuG Block 1
+title: 1 PuG
 ---
 
 ## Wegwerfgesellschaft

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ITS-GR Block 1
+title: 1 ITS-GR
 ---
 
 ## Betriebssysteme
