@@ -30,6 +30,8 @@ Bedeutung:  user darf r, w, x
 
 ### Befehle in VI
 
+Befehlskontext mit ESC öffnen
+
 |Beschreibung|Befehl|
 |--|--|
 |:w|speichern|
@@ -39,14 +41,30 @@ Bedeutung:  user darf r, w, x
 |dd|Zeile löschen|
 |i|insert|
 
+## Skripting in Linux
+
+- Erste Zeile wird "Shebang"-Zeile genannt
+- In der Shebang-Zeile wird die zu verwendende Shell angegeben
+- #! /bin/bash (für standard-shell)
+
+|Syntax|Bedeutung|
+|--|--|
+|#!|Shell-Angabe|
+|#|Kommentar|
+|$xxx|Ansprache der davor definierten Variable xxx|
+|+%x|Formatierungsoption des vorangegangenen Befehls mit Parameter x|
+
+- Variablendeklarationen dürfen keine Leerzeichen enthalten (z.B. varname = xxx)
+- Variableninitialisierungen mit Leerzeichen (für Parameter für vordefinierte Befehle) müssen mit **\`**    **\`** (Backticks, nicht Quotation Marks) umrahmt werden
+
 ---
 
 ## Netzwerk
 
 - Im physischen Bereich (MAC-Adressenbasiert) wird zuerst die Ziel-MAC und dann die Quell-MAC angegeben (z.B: im Frame-Header).
 - Im logischen Bereich (IP-Adressenbasiert) wird zuerst die Quell-IP und dann die Ziel-IP angegeben.
-- Der Portbereich ist festgelegt auf 16 Bit (65535 verfügbare Ports, davon die ersten 1024 well-known Ports)
-- Es können 4096 VLANs über die VLAN-Erweiterung im Frame-Header addressiert werden (die ersten zwei Byte sind die VLAN-Beschreibung (TPID))
+- Der Portbereich ist festgelegt auf 16 Bit (65536 (0-65535) verfügbare Ports, davon die ersten 1024 well-known Ports)
+- Es können 4096 VLANs über die VLAN-Erweiterung im Frame-Header addressiert werden (die ersten zwei Byte sind für den Tag Protocol Identifier (TPID) - Bei VLANs 0x8100, die letzten 12 Bit für VLAN ID (-> max 4096))
 
 ### Aufbau eines Frames
 
