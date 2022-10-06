@@ -13,7 +13,7 @@ Microsoft erlaubt keinen direkten Zugriff auf das Betriebssystem Windows. Selbst
 
 ### Linux Berechtigungen
 
-Beispiel: Datei bla.txt hat die Rechte 754 <br>
+Beispiel: Datei bla.txt hat die Rechte 754 \
 Bedeutung:  user darf r, w, x
             group darf r, x
             alle anderen r
