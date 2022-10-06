@@ -39,6 +39,8 @@ Bedeutung:  user darf r, w, x
 |dd|Zeile löschen|
 |i|insert|
 
+---
+
 ## Netzwerk
 
 - Im physischen Bereich (MAC-Adressenbasiert) wird zuerst die Ziel-MAC und dann die Quell-MAC angegeben (z.B: im Frame-Header).
@@ -77,6 +79,8 @@ Beispiel: Paket wird von PC 1 in internem Netz an Server 1 in externem Netz gesc
 
 - Selber Vorgang wie bei PAT, allerdings kann immer nur eine IP-Addresse ersetzt werden
 - Agiert nur auf IP-Addressen-Basis, ohne Ports
+
+---
 
 ## Backup
 

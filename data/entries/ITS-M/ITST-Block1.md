@@ -26,6 +26,8 @@ Datensicherheit bezieht sich auf alle Daten und die technischen Maßnahmen diese
 |Layer 8 Problem/Unwissende User|Schulungen|
 |Access-Point für Kunden|Proxies etc.|
 
+---
+
 ## VPN
 
 - VPN-Client (baut die Verbindung auf),
@@ -42,18 +44,24 @@ Für die Sicherheit der Verbindung ist das VPN-Protokoll (z.B. IPSec) zuständig
 
 ### End-To-End VPN
 
+![End-To-End](../images/hosthost.jpeg)
+
 - Host-To-Host-VPN
 
 Ein Host-to-Host-VPN ermöglicht den sicheren Datenaustausch zum Beispiel zwischen zwei Rechnern oder Servern.
 
 ### Site-To-Site VPN
 
+![Site-To-Site](../images/sitesite.jpeg)
+
 - Gateway-To-Gateway-VPN
 
 Werden zwei Standorte, bzw. Netzwerke über ein öffentliches Netzwerk (Internet) mit einander verbunden, spricht man von einem Site-to-Site-VPN. Dieses eignet sich dann, wenn z. B. die Filiale einer Firma an die Zentrale angebunden wird. In diesem
-Fall müssen nur die beiden Gateways (i.d.R. VPN-fähige Router) das gleiche VPNProtokoll sprechen und zueinander einen VPN-Tunnel aufbauen.
+Fall müssen nur die beiden Gateways (i.d.R. VPN-fähige Router) das gleiche VPN-Protokoll sprechen und zueinander einen VPN-Tunnel aufbauen.
 
 ### End-To-Site VPN
+
+![End-To-Site](../images/endsite.jpeg)
 
 - Host-To-Gateway-VPN
 - Remote-Access-VPN

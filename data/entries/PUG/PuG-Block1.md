@@ -11,6 +11,8 @@ Definition: Wegwerfgesellschaft ist ein Begriff, der von Kritikern der Überflus
 
 Geplante Obsoleszenz (auch: geplanter Verschleiß, Produktvergreisung) ist eine Marketingstrategie, bei der das Veralten eines Produktes (Obsoleszenz) vom Hersteller geplant und konzeptionell vorgesehen ist.
 
+---
+
 ## Vertragsarten
 
 ### Kaufvertrag
