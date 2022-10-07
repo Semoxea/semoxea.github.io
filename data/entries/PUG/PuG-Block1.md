@@ -19,7 +19,7 @@ Geplante Obsoleszenz (auch: geplanter Verschleiß, Produktvergreisung) ist eine 
 
 - Übereinstimmende Willenserklärung von Käufer und Verkäufer (Gegenstand, Preis, ...)
 - Formfreier Abschluss (mündlich, schriftlich, konkludent)
-- Verkäufer: Verpflichtung, Ware zu liegern und Eigentum zu übertragen
+- Verkäufer: Verpflichtung, Ware zu liefern und Eigentum zu übertragen
 - Käufer: Verpflichtung, Ware abzunehmen und Kaufpreis zu bezahlen
 - Rechte des Käufers: Nachbesserung oder Neulieferung (= vorrangiges Recht), Vertragsrecht oder Schadensersatz (= nachrangiges Recht)
 
@@ -45,5 +45,5 @@ Geplante Obsoleszenz (auch: geplanter Verschleiß, Produktvergreisung) ist eine 
 
 ### Mietvertrag
 
-- Mieter: vertragsmößige Nutzung, Zahlung der Miete, SOrgfalt, Meldung von Schäden, Kostenübernahme für "Schönheitsreparaturen", Duldung von Instandhaltungen, kein Überlassen an Dritte
+- Mieter: vertragsmäßige Nutzung, Zahlung der Miete, Sorgfalt, Meldung von Schäden, Kostenübernahme für "Schönheitsreparaturen", Duldung von Instandhaltungen, kein Überlassen an Dritte
 - Vermieter: Mietobjekt überlassen, maximal drei Monatsmieten Kaution, Maßnahmen der Instandhaltung

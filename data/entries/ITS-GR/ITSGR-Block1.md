@@ -92,11 +92,11 @@ Beispiel: Paket wird von PC 1 in internem Netz an Server 1 in externem Netz gesc
 - Standardgateway setzt für den neuen Port eine Zuordnung zu PC 1 und dem ursprünglichen Port (Router-interne Liste)
 - Bei Antwort wird anhand des Portabgleichs mit der internen Liste das richtige Ziel (PC 1 mit Quell-Port) zugeordnet
 - Listeneintrag mit "Ersatzport" wird gelöscht
+- PAT ist ein 1-zu-n NAT (1 PC in Privatnetz kann übersetzt werden (viele Ports, aber nur 1 PC))
 
 ### NAT - Network Address Translation
 
-- Selber Vorgang wie bei PAT, allerdings kann immer nur eine IP-Addresse ersetzt werden
-- Agiert nur auf IP-Addressen-Basis, ohne Ports
+- Standardgateway ersetzt bei Paketerhalt die Quell-IP durch seine externe Schnittstelle und setzt einen Wert zur Zuordnung des Antwortpakets in die NAT-Tabelle
 
 ---
 
