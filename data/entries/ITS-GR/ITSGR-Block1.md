@@ -20,19 +20,25 @@ Bedeutung:  user darf r, w, x
 
 ### Befehle in Linux
 
-|Beschreibung|Befehl|
+|Befehl|Beschreibung|
 |--|--|
-|Rechte angeben/ändern|chmod|
-|Auflisten der Rechte|ls -l|
-|Ändern des Eigentümers|chown|
-|Ändern der Gruppe|chgrp|
-|Wechseln von Verzeichnissen|cd|
+|chmod|Rechte angeben/ändern|
+|ls -l|Auflisten der Rechte (+Gruppe)|
+|chown|Ändern des Eigentümers einer Datei/eines Dirs|
+|chgrp|Ändern der Gruppe|
+|cd|Wechseln von Verzeichnissen|
+|pwd|Ausgeben des aktuellen Verzeichnispfades|
+|cp|Copy|
+|rm|Remove|
+|touch|Anlegen einer neuen Datei oder Ändern der Metadaten einer Datei|
+|cat|Ausgeben der Inhalte einer Datei|
+|less|Ausgeben der Inhalte einer Datei in lesbaren Seiten|
 
 ### Befehle in VI
 
 Befehlskontext mit ESC öffnen
 
-|Beschreibung|Befehl|
+|Befehl|Beschreibung|
 |--|--|
 |:w|speichern|
 |:q|verlassen|
@@ -42,6 +48,8 @@ Befehlskontext mit ESC öffnen
 |i|insert|
 
 ## Skripting in Linux
+
+Anordnung von Befehlen, die nacheinander abgearbeitet werden. Diese Befehle werden in eine Datei zur Wiederverwendbarkeit und Automatisierung geschrieben.
 
 - Erste Zeile wird "Shebang"-Zeile genannt
 - In der Shebang-Zeile wird die zu verwendende Shell angegeben
