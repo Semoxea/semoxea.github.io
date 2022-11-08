@@ -10,6 +10,7 @@ title: Dateien
 - [IT-Systeme (Gaull & Raschka)](#it-systeme-gaull--raschka)
 - [IT-Systeme (Morgott)](#it-systeme-morgott)
 - [IT-Projekt](#it-projekt)
+- [PlusD](#PlusD)
 
 ---
 
@@ -40,3 +41,13 @@ title: Dateien
 ---
 
 ### IT-Projekt
+
+- [ScrumGuide](files/ITP/ScrumGuide.pdf)
+
+---
+
+### PlusD
+
+- [Unternehmensgründung](files/PlusD/Unternehmensgruendung.pdf)
+- [Firmen](files/PlusD/Firmen.pdf)
+- [Firmengrundsätze](files/PlusD/Firmengrundsaetze.pdf)
