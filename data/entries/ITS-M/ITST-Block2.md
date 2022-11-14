@@ -23,7 +23,7 @@ title: 2 ITS-M-T
 ### AH und ESP
 
 - AH: Authentication Header
-- ESP: 
+- ESP: Encapsulating Security Payload
 - AH authentifiziert IP-Pakete, verschlüsselt aber nicht
 - ESP verschlüsselt IP-Pakete zusätzlich
 - Im Tansportmodus werden die Daten eines IP-Pakets verschlüsselt
