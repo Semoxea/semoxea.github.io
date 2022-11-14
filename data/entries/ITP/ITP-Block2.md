@@ -66,7 +66,7 @@ title: 2 ITP
 
 - Sensoren Anbinden
 - Datenverarbeitung
-  - Transfer in Datenbank 
+  - Transfer in Datenbank
 - Visuelle Aufbereitung
 - Alarme steuern
 - Strom-überwachung

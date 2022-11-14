@@ -28,3 +28,5 @@ title: 2 ITS-M-T
 - ESP verschlüsselt IP-Pakete zusätzlich
 - Im Tansportmodus werden die Daten eines IP-Pakets verschlüsselt
 - Im Tunnelmodus wird das gesamte IP-Paket verschlüsselt (Header ausgetauscht)
+
+[Hedgedoc](https://ip-generation.de/F2ThXrIGQJOopuFqHNrjkw)
