@@ -90,7 +90,7 @@ title: 2 ITS-GR
 
 #### Scrum Team
 
-- Besteht üblicherweise aus 10 oder weniger Teammitgliedern 
+- Besteht üblicherweise aus 10 oder weniger Teammitgliedern
 - Besteht aus einem Product Owner, einem Scrum Master und mehreren Entwicklern
 - Die Mitglieder des Teams besitzen alle erforderlichen Fähigkeiten, um in einem Sprint einen Wert zu schätzen
 - Das Team managed sich intern selbst
@@ -128,7 +128,7 @@ title: 2 ITS-GR
 
 ## RAID
 
-**Redundant Array of Independent Discs**
+Definition: **Redundant Array of Independent Discs**
 
 ### Probleme die auftreten können
 
