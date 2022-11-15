@@ -10,7 +10,7 @@ title: Dateien
 - [IT-Systeme (Gaull & Raschka)](#it-systeme-gaull--raschka)
 - [IT-Systeme (Morgott)](#it-systeme-morgott)
 - [IT-Projekt](#it-projekt)
-- [PlusD](#PlusD)
+- [PlusD](#plusd)
 
 ---
 
@@ -52,3 +52,5 @@ title: Dateien
 - [Unternehmensgründung](files/PlusD/Unternehmensgruendung.pdf)
 - [Firmen](files/PlusD/Firmen.pdf)
 - [Firmengrundsätze](files/PlusD/Firmengrundsaetze.pdf)
+- [Innovationen](files/PlusD/Innovationen.pdf)
+- [Handelsregister](files/PlusD/Handelsregister.pdf)

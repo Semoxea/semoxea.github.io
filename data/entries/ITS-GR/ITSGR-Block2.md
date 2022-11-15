@@ -123,3 +123,61 @@ title: 2 ITS-GR
 
 - Person, für die es aufgrund ihrer Interessenlage von Belang ist wie das Projekt verläuft (z. B. Aktionär, Mitarbeiter, Kunde)
 - Jemand der das System nutzen soll (bzw. nicht nutzen soll)
+
+---
+
+## RAID
+
+**Redundant Array of Independent Discs**
+
+### Probleme die auftreten können
+
+#### HDD
+
+- Mechanische Defekte (Rotierende Scheiben, Lese-/Schreibkopf)
+- Höherer Energiebedarf
+- Weniger robust (anfällig für Stöße/Stürze)
+- Starke Magnetfelder zerstören die HDD
+
+#### SSD
+
+- Häufige Firmwareprobleme
+- Überhitzung
+- begrenzte Speicherkapazität
+- Begrenzte Schreib-/Löschzyklen
+
+### Anforderungen für sichere Datenspeicherung
+
+#### Kurzzeitige Externe Ausfallsicherheit
+
+- Durchgängige Stromversorgung (USV)
+- Notstromgeneratoren für größere Serverräume
+- Eigenes Netzwerk für ILOs -> lokaler Zugriff bei Netzausfall
+
+#### Langfristige Externe Ausfallsicherheit
+
+- Speicherung auf zwei verschiedenen Standorten für Absicherung gegen Elementarschäden
+
+#### Interne Ausfälle
+
+- Hoher MTBF-Wert der Disks (Meantime between Failure, Durchschnittliche Zeit bis die Platte ausfällt)
+![MTBF](../images/mtbf.png)
+- Niedriger MTTR-Wert (Mean Time to Repair, Durschnittliche Zeit bis zur Reparatur)
+  - Auch Mean-Time-To-Recovery, Mean-Team-To-Resolve oder Mean-Time-To-Resolution
+  - Wird in Sekunden, Stunden oder Tagen angegeben
+  ![MTTR](../images/mttr.png)
+- Hohe MTTF (Mean Time to Failure, Durchschnittliche Zeit bis zu einem Fehler)
+![MTTF](../images/mttf.png)
+
+#### RAID Funktionsweisen
+
+- **Striping:** Ein Datensatz wird aufgeteilt auf mehreren aufeinanderfolgenden Festplatten gespeichert. Beim Ausfall einer der Platten sind alle Informationen verloren, da sämtliche Platten zum Lesen des vollständigen Datensatzes benötigt werden.
+- **Mirroring:** Ein Datensatz wird auf zwei verschiedenen Festplatten gespeichert. Beim Ausfall einer der beiden Platten gehen keine Informationen verloren, da die selben Informationen noch auf der anderen Festplatte liegen.
+- **Parity:** Ein Datensatz wird in Streifen auf mehreren Festplatten verteilt gespeichert. Zusätzlich wird auf einer Platte für jeden Streifen ein Paritätswert errechnet. Beim Ausfall einer Platte kann mit Hilfe des Paritätwerts die fehlende Information errechnet werden.
+
+**Ziel:** Erhöhung der Verfügbarkeit von Daten
+
+### Redundanz
+
+- Es werden mehr Informationen/Systeme vorgehalten, damit bei Ausfall eines Teilsystems das Gesamtsystem trotzdem fehlerfrei weiterarbeiten kann
+- Erhöht den Schutz vor Datenverlust und steigert die Verfügbarkeit
