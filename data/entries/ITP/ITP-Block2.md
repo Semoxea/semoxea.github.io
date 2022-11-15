@@ -55,3 +55,19 @@ title: 2 ITP
 - 51.104€
 - Überwacht zurzeit Systeme semi-manuell (Kameraraum), hat aber auch andere Verantwortlichkeiten (z.B. Lobby)
 - kritische Alarme sollen zukünftig direkt an Herrn Bambus geleitet werden um Falschmeldungen zu reduzieren
+
+### Stakeholder
+
+- Geschäftsleitung
+- Mitarbeiter der Technik, der Netzwerktechnik under der Sicherheit
+- Unbefugte
+
+### Backlog
+
+- Sensoren Anbinden
+- Datenverarbeitung
+  - Transfer in Datenbank
+- Visuelle Aufbereitung
+- Alarme steuern
+- Strom-überwachung
+  - Stromausfall  
