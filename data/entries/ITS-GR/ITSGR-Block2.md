@@ -205,10 +205,18 @@ Vorteil:
 
 Nachteil:
 
-bei der Verwendung von 2 Festplatten kann nur die Kapazität der kleinsten Platte verwendet werden
+- bei der Verwendung von 2 Festplatten kann nur die Kapazität der kleinsten Platte verwendet werden
 
--> Netto <= 0.5 Brutto
+**-> Netto <= 0.5 Brutto**
 
 #### RAID 3
+
+![Raid3](../images/RaidLevel3.png)
+
+Vorteil:
+
+- Redundanz
+- Besseres Verhältnis von Netto/Brutto gegenüber RAID 1
+- Höherer Datendurchsatz
 
 ![Raid-Arten](../images/Raid.png)
