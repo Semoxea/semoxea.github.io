@@ -181,3 +181,34 @@ Definition: **Redundant Array of Independent Discs**
 
 - Es werden mehr Informationen/Systeme vorgehalten, damit bei Ausfall eines Teilsystems das Gesamtsystem trotzdem fehlerfrei weiterarbeiten kann
 - Erhöht den Schutz vor Datenverlust und steigert die Verfügbarkeit
+
+### RAID-Arten
+
+#### RAID 0
+
+![Raid0](../images/RaidLevel0.png)
+
+**Achtung: keine Redundanz**: bei Ausfall eines Teilsystems sind alle Daten verloren.
+
+Vorteil:
+
+- höherer Datendurchsatz gegenüber nur einer Platte
+
+#### RAID 1
+
+![Raid1](../images/RaidLevel1.png)
+
+Vorteil:
+
+- ggf. doppelten Lese-Datenzugriff
+- Redundanz
+
+Nachteil:
+
+bei der Verwendung von 2 Festplatten kann nur die Kapazität der kleinsten Platte verwendet werden
+
+-> Netto <= 0.5 Brutto
+
+#### RAID 3
+
+![Raid-Arten](../images/Raid.png)
