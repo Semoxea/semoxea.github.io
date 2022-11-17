@@ -219,4 +219,25 @@ Vorteil:
 - Besseres Verhältnis von Netto/Brutto gegenüber RAID 1
 - Höherer Datendurchsatz
 
+#### RAID 5
+
+![Raid5](../images/RaidLevel5.png)
+
+Vorteil:
+
+- höherer Datendurchsatz gegenüber einer Platte
+- kein "Flaschenhals"
+
+#### RAID 6
+
+![Raid6](../images/RaidLevel6.png)
+
+Vorteil:
+
+- Es dürfen 2 Platten ohne Auftreten von Datenverlust ausfallen
+
+Nachteil:
+
+- Aufgrund der verteilten 2 Parity deutlich geringerer Datendurchsatz (Einbezug mehrerer Dateneinheiten)
+
 ![Raid-Arten](../images/Raid.png)
