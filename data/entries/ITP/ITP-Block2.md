@@ -9,7 +9,7 @@ title: 2 ITP
 
 - schwimmer
 - luftfeuchtigkeit
-- ds18s20 (temp)
+- sensor ds18s20 (temp)
 - eingabetaster
 - akustisch & lichtanzeige
 
@@ -17,7 +17,7 @@ title: 2 ITP
 
 - Wassereinbruch
 - starker Temperaturanstieg/Feuer
-- Temperatur relevanter Geräte
+- Temperatur relevanter Geräte (Server)
 - Zutrittskontrolle
 - Interneterreichbarkeit
 
@@ -26,7 +26,6 @@ title: 2 ITP
 - kleiner Serverraum (20m²) mit 6 Serverracks
 - Feuerschutztür
 - mit "Kältegang"
-- vergitterte Fenster (Kellerraum)
 - simple Videoüberwachung vorhanden
 - kleinere mittelständische Firma
   - Ziel: IT Grundschutz für eine zukünftige Zertifizierung
@@ -64,10 +63,20 @@ title: 2 ITP
 
 ### Backlog
 
-- Sensoren Anbinden
+- Sensoren Anbinden (jede Minute)
 - Datenverarbeitung
   - Transfer in Datenbank
 - Visuelle Aufbereitung
+  - Auslesen aus Datenbank -> Push auf GUI
 - Alarme steuern
-- Strom-überwachung
-  - Stromausfall  
+  - Visueller Alarm (LED)
+  - Audio Alarm (Summer)
+  - Benachrichtigung (E-Mail)
+
+### User Stories
+
+- Als Frau Bambusbjörn möchte ich eine übersichtliche, einfach zu verstehende grafische Monitoring-Oberfläche um Fehler schnell erkennen zu können
+- Als Herr Bambus möchte ich, dass ich nur für kritische Events, die meine direkte Aufmerksamkeit erfordern, alarmiert werde.
+- Als Mitarbeiter des Serverteams möchte ich, dass die grafische Oberfläche für jeden erreichbar und einsehbar ist.
+- Als Geschäftsleitung möchte ich eine dauerhafte Überwachung des Serverraums mit Alarmierungen der Technik und Sicherheit.
+- Als Frau Bambusbjörn möchte ich eine audiovisuelle Alarmierung bei unbefugtem Zutritt zum Serverraum.
