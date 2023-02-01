@@ -24,3 +24,11 @@ title: 3 ITS-M-T
 
 #### Vorteile
 
+- benötigt wenig Rechenleistung
+
+#### Beispiele
+
+- DES
+- 3DES (Triple DES)
+- AES
+- Serpent
