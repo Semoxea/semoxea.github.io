@@ -18,6 +18,7 @@ title: Dateien
 
 - [Jobangebot Text](files/Eng/ApplicationText.pdf)
 - [Jobangebot AB](files/Eng/ApplicationAB.pdf)
+- [Malware AB](files/Eng/Malware.pdf)
 
 ---
 
@@ -28,6 +29,8 @@ title: Dateien
 - [Bedürfnisse AB](files/PuG/ABBeduerfnisse.pdf)
 - [Vertragsarten AB](files/PuG/ABVertragsarten.pdf)
 - [Präsentationen](files/PuG/Praesentationen.pdf)
+- [Soziale Marktwirtschaft AB](files/PuG/SozialeMarktwirtschaft.pdf)
+- [Wirtschaftsziele AB](files/PuG/Wirtschaftsziele.pdf)
 
 ---
 
@@ -44,6 +47,7 @@ title: Dateien
 ### IT-Projekt
 
 - [ScrumGuide](files/ITP/ScrumGuide.pdf)
+- [Pricing Modelle](files/ITP/AB20230130.pdf)
 
 ---
 
