@@ -58,3 +58,4 @@ title: Dateien
 - [Firmengrundsätze](files/PlusD/Firmengrundsaetze.pdf)
 - [Innovationen](files/PlusD/Innovationen.pdf)
 - [Handelsregister](files/PlusD/Handelsregister.pdf)
+- [Businessplan](files/PlusD/Businessplan.pdf)
