@@ -41,10 +41,17 @@ Schutz vor:
 - Spannungsausfall
 - Unterspannung
 - Spannungsschwankungen
-- Überspannung
+- Überspannunggit 
 - Spannungsspitzen
 - Frequenzschwankungen
 
 **Vorteil: Akkus modular erweiterbar.**
 
 ### Berechnungen bei USV
+
+## SMB
+
+### Einrichten
+
+- install samba per package manager
+- smb.conf create new share at the bottom
