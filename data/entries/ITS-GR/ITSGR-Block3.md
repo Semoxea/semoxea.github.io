@@ -9,7 +9,7 @@ title: 3 ITS-GR
 
 #### VFD - Voltage + Frequency dependent
 
-![VFD](../images/VFD.svg)
+![VFD](../images/USVArtenVFD.png)
 
 Schutz vor:
 
@@ -20,7 +20,7 @@ Schutz vor:
 
 #### VI - Voltage Independent
 
-![VI](../images/VI.svg)
+![VI](../images/USVArtenVI.png)
 
 Schutz vor:
 
@@ -34,7 +34,7 @@ Schutz vor:
 
 #### VFI - Voltage + Frequency Independent
 
-![VFI](../images/VFI.svg)
+![VFI](../images/USVArtenVFI.png)
 
 Schutz vor:
 

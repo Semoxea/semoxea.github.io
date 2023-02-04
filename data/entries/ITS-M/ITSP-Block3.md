@@ -12,7 +12,7 @@ title: 1 ITS-B-P
 |1|accept|LAN|WAN|443|
 |2|accept|LAN|WAN|80|
 |3|accept|LAN local|WAN|53|
-|4|deny|Any|Any|21| 
+|4|deny|Any|Any|21|
 |5|accept|192.168.0.100 /24|LAN|23|
 |6|reject|Any|Any|21|
 |7|accept|LAN|LAN|all|
