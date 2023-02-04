@@ -5,11 +5,15 @@ title: 3 ITS-GR
 
 ## USV - Unterbrechungsfreie Stromversorgung
 
+### Probleme bei der Stromversorgung
+
+![Stromversorgung](../images/Stromversorgung.jpg)
+
 ### USV - Typen (Arten)
 
 #### VFD - Voltage + Frequency dependent
 
-![VFD](../images/USVArtenVFD.png)
+![VFD](../images/USVArtenVFD.jpg)
 
 Schutz vor:
 
@@ -20,7 +24,7 @@ Schutz vor:
 
 #### VI - Voltage Independent
 
-![VI](../images/USVArtenVI.png)
+![VI](../images/USVArtenVI.jpg)
 
 Schutz vor:
 
@@ -34,7 +38,7 @@ Schutz vor:
 
 #### VFI - Voltage + Frequency Independent
 
-![VFI](../images/USVArtenVFI.png)
+![VFI](../images/USVArtenVFI.jpg)
 
 Schutz vor:
 
