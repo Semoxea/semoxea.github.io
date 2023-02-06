@@ -48,6 +48,7 @@ title: Dateien
 
 - [ScrumGuide](files/ITP/ScrumGuide.pdf)
 - [Pricing Modelle](files/ITP/AB20230130.pdf)
+- [Kostenrechnung](files/ITP/Kostenrechnung.pdf)
 
 ---
 
