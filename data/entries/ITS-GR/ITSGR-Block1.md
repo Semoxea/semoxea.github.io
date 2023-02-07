@@ -3,9 +3,6 @@ layout: page
 title: IT-Systeme 12
 ---
 
-## Index
-
-- [Index](#index)
 - [Betriebssysteme](#betriebssysteme)
   - [Microsoft Windows vs Linux](#microsoft-windows-vs-linux)
   - [Linux Berechtigungen](#linux-berechtigungen)

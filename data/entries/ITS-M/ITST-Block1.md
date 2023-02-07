@@ -1,6 +1,30 @@
 ---
 layout: page
-title: 1 ITS-M-T
+title: IT-Sicherheit Theorie 12
+---
+
+- [Datenschutz](#datenschutz)
+  - [Datenschutz vs Datensicherheit](#datenschutz-vs-datensicherheit)
+  - [Schutzbedarf feststellen](#schutzbedarf-feststellen)
+- [VPN](#vpn)
+  - [Sichere Datenübertragung](#sichere-datenübertragung)
+  - [End-To-End VPN](#end-to-end-vpn)
+  - [Site-To-Site VPN](#site-to-site-vpn)
+  - [End-To-Site VPN](#end-to-site-vpn)
+- [VPN](#vpn-1)
+  - [VPN und VDI](#vpn-und-vdi)
+  - [AH und ESP](#ah-und-esp)
+- [Kryptologie](#kryptologie)
+  - [Symmetrische Verschlüsselung](#symmetrische-verschlüsselung)
+    - [Merkmale](#merkmale)
+    - [Nachteile](#nachteile)
+    - [Vorteile](#vorteile)
+    - [Beispiele](#beispiele)
+  - [Asymmetrische Verschlüsselung](#asymmetrische-verschlüsselung)
+    - [Merkmale](#merkmale-1)
+    - [Nachteile](#nachteile-1)
+    - [Beispiel](#beispiel)
+
 ---
 
 ## Datenschutz
@@ -68,3 +92,84 @@ Fall müssen nur die beiden Gateways (i.d.R. VPN-fähige Router) das gleiche VPN
 
 Ein Außendienstmitarbeiter verbindet sich vom Notebook über das Internet mit der Firmenzentrale. Diese Variante ist das sogenannte Client-to-Site-VPN. Andere Namen dafür sind Access-VPN oder User-to-Site-VPN. Auf dem Notebook muss
 dazu ein VPN-Client (Software) installiert sein. VPN-Server ist in diesem Beispiel der VPN-Router, er beherrscht das gleiche VPN-Protokoll.
+
+---
+
+## VPN
+
+### VPN und VDI
+
+- VDI: Virtual Desktop Infrastructure - Virtuelle Desktops, welche über ein Rechenzentrum zur Verfügung gestellt werden
+- DaaS: Desktop as a Service - Bereitstellung eines Virtuellen Desktops über eine Cloud-Infrastruktur
+
+|VPN|VDI|
+|--|--|
+|Datenverarbeitung auf Client-Maschine|Datenverarbeitung auf Virtual Desktop|
+|Benötigt hohe Bandbreite|-|
+|Daten werden lokal gespeichert|Daten liegen auf VD im RZ|
+|Zugriff auf Anwendungen nur bei Kompatibilität mit Client-Betriebssystem|Zugriff auf Anwendungen auch von anderen Betriebssystemen aus möglich|
+|Ver-/Entschlüsselung auf Netzwerkebene (Entschlüsselung bereits bei den Routern)|hohe Datensicherheit (erst auf Layer 7 des Anwenders entschlüsselt|
+|relativ billig (Software auf Routern aktivieren/installieren)|teurer, zusätzliche Hard- unf Software|
+||mehr Konfigurationsaufwand|
+
+### AH und ESP
+
+- AH: Authentication Header
+- ESP: Encapsulating Security Payload
+- AH authentifiziert IP-Pakete, verschlüsselt aber nicht
+- ESP verschlüsselt IP-Pakete zusätzlich
+- Im Tansportmodus werden die Daten eines IP-Pakets verschlüsselt
+- Im Tunnelmodus wird das gesamte IP-Paket verschlüsselt (Header ausgetauscht)
+
+[Hedgedoc](https://ip-generation.de/F2ThXrIGQJOopuFqHNrjkw)
+
+---
+
+## Kryptologie
+
+![Kryptologie Mindmap](../images/KryptoplogieMindmap.jpeg)
+
+### Symmetrische Verschlüsselung
+
+![Symmetrische Verschlüsselung](../images/symVerschl.png)
+
+#### Merkmale
+
+- Kommunikationspartner verwenden den gleichen Schlüssel
+- Kommunikationspartner verwenden das gleiche Verschlüsselungsverfahren
+
+#### Nachteile
+
+- Schlüsselaustauschproblem
+- Hohe Anzahl an Schlüsseln
+- Schlüsselmanagement
+
+#### Vorteile
+
+- benötigt wenig Rechenleistung
+
+#### Beispiele
+
+- DES
+- 3DES (Triple DES)
+- AES
+- Serpent
+
+### Asymmetrische Verschlüsselung
+
+![Asymmetrische Verschlüsselung](../images/asymVerschl.png)
+
+#### Merkmale
+
+Eine Nachricht, die mit einem Schlüssel eines Schlüsselpaares verschlüsselt wird, muss mit dem anderen Schlüssel entschlüsselt werden.
+
+- Vertraulichkeit: Verschlüsselung mit Public Key des Kommunikationspartners.
+- Authentizität: Verschlüsselung mit dem eigenen Private Key
+
+#### Nachteile
+
+- hohe Rechenleistung erforderlich
+
+#### Beispiel
+
+- RSA
