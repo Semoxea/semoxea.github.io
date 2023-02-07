@@ -1,7 +1,17 @@
 ---
 layout: page
-title: 1 PuG
+title: Politik und Gesellschaft 12
 ---
+
+- [Wegwerfgesellschaft](#wegwerfgesellschaft)
+  - [Geplante Obsoleszenz](#geplante-obsoleszenz)
+- [Vertragsarten](#vertragsarten)
+  - [Kaufvertrag](#kaufvertrag)
+  - [Kreditvertrag](#kreditvertrag)
+  - [Leasingvertrag](#leasingvertrag)
+  - [Leihvertrag](#leihvertrag)
+  - [Mietvertrag](#mietvertrag)
+- [Konjunktur](#konjunktur)
 
 ## Wegwerfgesellschaft
 
@@ -47,3 +57,11 @@ Geplante Obsoleszenz (auch: geplanter Verschleiß, Produktvergreisung) ist eine 
 
 - Mieter: vertragsmäßige Nutzung, Zahlung der Miete, Sorgfalt, Meldung von Schäden, Kostenübernahme für "Schönheitsreparaturen", Duldung von Instandhaltungen, kein Überlassen an Dritte
 - Vermieter: Mietobjekt überlassen, maximal drei Monatsmieten Kaution, Maßnahmen der Instandhaltung
+
+---
+
+## Konjunktur
+
+Bruttoinlandsprodukt = Summe aller Güter/Dienstleistungen in einem bestimmten Zeitraum innerhalb eines Landes
+
+![Konjunktur](../images/Konjunktur.jpg)

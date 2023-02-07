@@ -24,6 +24,7 @@ title: IT-Sicherheit Theorie 12
     - [Merkmale](#merkmale-1)
     - [Nachteile](#nachteile-1)
     - [Beispiel](#beispiel)
+  - [PKI](#pki)
 
 ---
 
@@ -173,3 +174,9 @@ Eine Nachricht, die mit einem Schlüssel eines Schlüsselpaares verschlüsselt w
 #### Beispiel
 
 - RSA
+
+### PKI
+
+Public Key Infrastructure
+
+![PKI](../images/PKIAblauf.png)

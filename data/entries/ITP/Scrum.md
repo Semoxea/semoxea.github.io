@@ -3,6 +3,7 @@ layout: page
 title: Scrum
 ---
 
+
 ## SCRUM
 
 ### Meetings
