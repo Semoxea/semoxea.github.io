@@ -5,12 +5,13 @@ title: Dateien
 
 ## Index
 
-- [Englisch](#englisch)
-- [Politik und Gesellschaft](#politik-und-gesellschaft)
-- [IT-Systeme (Gaull & Raschka)](#it-systeme-gaull--raschka)
-- [IT-Systeme (Morgott)](#it-systeme-morgott)
-- [IT-Projekt](#it-projekt)
-- [PlusD](#plusd)
+- [Index](#index)
+  - [Englisch](#englisch)
+  - [Politik und Gesellschaft](#politik-und-gesellschaft)
+  - [IT-Systeme (Gaull \& Raschka)](#it-systeme-gaull--raschka)
+  - [IT-Systeme (Morgott)](#it-systeme-morgott)
+  - [IT-Projekt](#it-projekt)
+  - [PlusD](#plusd)
 
 ---
 
@@ -47,7 +48,7 @@ title: Dateien
 ### IT-Projekt
 
 - [ScrumGuide](files/ITP/ScrumGuide.pdf)
-- [Pricing Modelle](files/ITP/AB20230130.pdf)
+- [Pricing Modelle](files/ITP/PricingModelle.pdf)
 - [Kostenrechnung](files/ITP/Kostenrechnung.pdf)
 
 ---
