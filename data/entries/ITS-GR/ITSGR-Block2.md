@@ -1,8 +1,3 @@
----
-layout: page
-title: 2 ITS-GR
----
-
 ## RAID
 
 Definition: **Redundant Array of Independent Discs**

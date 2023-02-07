@@ -32,3 +32,23 @@ title: 3 ITS-M-T
 - 3DES (Triple DES)
 - AES
 - Serpent
+
+### Asymmetrische Verschlüsselung
+
+![Asymmetrische Verschlüsselung](../images/asymVerschl.png)
+
+#### Merkmale
+
+Eine Nachricht, die mit einem Schlüssel eines Schlüsselpaares verschlüsselt wird, muss mit dem anderen Schlüssel entschlüsselt werden.
+
+- Vertraulichkeit: Verschlüsselung mit Public Key des Kommunikationspartners.
+- Authentizität: Verschlüsselung mit dem eigenen Private Key
+
+#### Nachteile
+
+- hohe Rechenleistung erforderlich
+
+#### Beispiele
+
+- RSA
+

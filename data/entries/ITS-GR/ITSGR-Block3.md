@@ -1,8 +1,3 @@
----
-layout: page
-title: 3 ITS-GR
----
-
 ## USV - Unterbrechungsfreie Stromversorgung
 
 ### Probleme bei der Stromversorgung
