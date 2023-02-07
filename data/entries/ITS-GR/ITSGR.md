@@ -374,7 +374,7 @@ Schutz vor:
 - Spannungsausfall
 - Unterspannung
 - Spannungsschwankungen
-- Überspannunggit 
+- Überspannung
 - Spannungsspitzen
 - Frequenzschwankungen
 
