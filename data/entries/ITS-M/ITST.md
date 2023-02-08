@@ -11,7 +11,6 @@ title: IT-Sicherheit Theorie 12
   - [End-To-End VPN](#end-to-end-vpn)
   - [Site-To-Site VPN](#site-to-site-vpn)
   - [End-To-Site VPN](#end-to-site-vpn)
-- [VPN](#vpn-1)
   - [VPN und VDI](#vpn-und-vdi)
   - [AH und ESP](#ah-und-esp)
 - [Kryptologie](#kryptologie)
@@ -24,6 +23,7 @@ title: IT-Sicherheit Theorie 12
     - [Merkmale](#merkmale-1)
     - [Nachteile](#nachteile-1)
     - [Beispiel](#beispiel)
+  - [Hybride Verschlüsselung](#hybride-verschlüsselung)
   - [PKI](#pki)
 
 ---
@@ -93,10 +93,6 @@ Fall müssen nur die beiden Gateways (i.d.R. VPN-fähige Router) das gleiche VPN
 
 Ein Außendienstmitarbeiter verbindet sich vom Notebook über das Internet mit der Firmenzentrale. Diese Variante ist das sogenannte Client-to-Site-VPN. Andere Namen dafür sind Access-VPN oder User-to-Site-VPN. Auf dem Notebook muss
 dazu ein VPN-Client (Software) installiert sein. VPN-Server ist in diesem Beispiel der VPN-Router, er beherrscht das gleiche VPN-Protokoll.
-
----
-
-## VPN
 
 ### VPN und VDI
 
@@ -174,9 +170,14 @@ Eine Nachricht, die mit einem Schlüssel eines Schlüsselpaares verschlüsselt w
 #### Beispiel
 
 - RSA
+  
+### Hybride Verschlüsselung
+
+![Hybride Verschlüsselung](../images/hybrideVerschl.png)
 
 ### PKI
 
 Public Key Infrastructure
 
 ![PKI](../images/PKIAblauf.png)
+
