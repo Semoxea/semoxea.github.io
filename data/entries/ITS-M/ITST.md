@@ -180,4 +180,3 @@ Eine Nachricht, die mit einem Schlüssel eines Schlüsselpaares verschlüsselt w
 Public Key Infrastructure
 
 ![PKI](../images/PKIAblauf.png)
-
