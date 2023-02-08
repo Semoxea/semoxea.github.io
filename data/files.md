@@ -20,6 +20,7 @@ title: Dateien
 - [Jobangebot Text](files/Eng/ApplicationText.pdf)
 - [Jobangebot AB](files/Eng/ApplicationAB.pdf)
 - [Malware AB](files/Eng/Malware.pdf)
+- [Leseverstehen](files/Eng/Leseverstehen.pdf)
 
 ---
 
@@ -61,3 +62,7 @@ title: Dateien
 - [Innovationen](files/PlusD/Innovationen.pdf)
 - [Handelsregister](files/PlusD/Handelsregister.pdf)
 - [Businessplan](files/PlusD/Businessplan.pdf)
+- [Businessplan Basics](files/PlusD/BusinessplanBasics.pdf)
+- [Businessplan Canvas](files/PlusD/BusinessModel.pdf)
+- [Businessplan Hilfstext](files/PlusD/HilfetexteBusinessplan.pdf)
+- [Businessplan Schreiben](files/PlusD/BusinessplanSchreiben.pdf)

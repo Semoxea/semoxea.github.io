@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2 ITP
+title: IT-Projekt 12
 ---
 
 ## Projekt Serverraumüberwachung
