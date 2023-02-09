@@ -346,7 +346,7 @@ Nachteil:
 
 Schutz vor:
 
-- Spannungsausfall
+- Spannungsausfall/einbruch
 - Unterspannung
 
 **Achtung: keine Erweiterbarkeit der Akkukapazität!**
@@ -357,7 +357,7 @@ Schutz vor:
 
 Schutz vor:
 
-- Spannungsausfall
+- Spannungsausfall/einbruch
 - Unterspannung
 - Spannungsschwankungen
 - Überspannung
@@ -371,7 +371,7 @@ Schutz vor:
 
 Schutz vor:
 
-- Spannungsausfall
+- Spannungsausfall/einbruch
 - Unterspannung
 - Spannungsschwankungen
 - Überspannung
@@ -381,6 +381,8 @@ Schutz vor:
 **Vorteil: Akkus modular erweiterbar.**
 
 ### Berechnungen bei USV
+
+![Berechnungsformel](../images/USVFormel.jpg)
 
 ## SMB
 
