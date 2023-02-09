@@ -48,6 +48,8 @@ title: IT-Systeme 12
   - [Berechnungen bei USV](#berechnungen-bei-usv)
 - [SMB](#smb)
   - [Einrichten](#einrichten)
+- [Virtualisierung](#virtualisierung)
+  - [Realisierungsmöglichkeiten](#realisierungsmöglichkeiten)
 
 ---
 
@@ -390,3 +392,11 @@ Schutz vor:
 
 - install samba per package manager
 - smb.conf create new share at the bottom
+
+## Virtualisierung
+
+Einzelne Betriebssysteme können gemeinsam, voneinander isoliert auf eine Hardware zugreifen.
+
+### Realisierungsmöglichkeiten
+
+![Virtualisierung](../images/Virtualisierung.png)
