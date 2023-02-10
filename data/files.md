@@ -33,6 +33,7 @@ title: Dateien
 - [Präsentationen](files/PuG/Praesentationen.pdf)
 - [Soziale Marktwirtschaft AB](files/PuG/SozialeMarktwirtschaft.pdf)
 - [Wirtschaftsziele AB](files/PuG/Wirtschaftsziele.pdf)
+- [Freie Marktwirtschaft & Zentralverwaltungswirtschaft](files/PuG/FM_ZVG.pdf)
 
 ---
 

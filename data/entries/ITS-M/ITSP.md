@@ -8,7 +8,8 @@ title: IT-Sicherheit Praxis 12
   - [DHCP](#dhcp)
   - [SNMP](#snmp)
 - [Firewall](#firewall)
-  - [Routerkonfiguration](#routerkonfiguration-1)
+  - [Access List](#access-list)
+  - [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -24,13 +25,20 @@ title: IT-Sicherheit Praxis 12
 ### Initialkonfiguration
 
 - Router anschließen (Strom, PCs per Ethernet, Internetanschluss an Port 5) und einschalten
-- TeraTerm starten, Einstellungen öffnen -> Serieller Port -> Baud Rate 115200
+- TeraTerm starten, Einstellungen öffnen -> Serieller Port -> Speed 115200
 - Einloggen mit admin admin
 - Switchen auf Webkonsole (-> Standard IP-Adresse des Routers ist 192.168.0.254)
 - Einloggen mit admin admin
 - admin PW ändern (z.B. Admin12345)
-- Physical Interfaces -> Schnittstellen festlegen
+- NAT für Schnittstelle en1_4 aktivieren
+- LAN -> IP Configuration -> en1_4 Address Mode DHCP (automatische Zuweisung der Router-IP & DNS-Adressmitteilung)s
+- Firewall -> Schnittstellen -> Gruppierungen können angelegt werden für Schnittstellen
+- Firewall -> Richtlinien -> Aktivieren
+  
+<!-- 
+- Physical Interfaces -> Schnittstellen festlegen 
 - LAN -> IP Configuration -> Schnittstellen bearbeiten -> Statische IP für Router in diesem Netz festlegen (254), trusted setzen
+-->
 
 ### DHCP
 
@@ -47,19 +55,24 @@ title: IT-Sicherheit Praxis 12
 
 ## Firewall
 
-### Routerkonfiguration
+### Access List
 
 ||Action|Source|Destination|Service(Port)|
 |--|--|--|--|--|
 |1|accept|LAN|WAN|443|
 |2|accept|LAN|WAN|80|
 |3|accept|LAN local|WAN|53|
-|4|deny|Any|Any|21|
-|5|accept|192.168.0.100 /24|LAN|23|
-|6|reject|Any|Any|21|
-|7|accept|LAN|LAN|all|
-|8|accept|LAN|LAN local|53|
-|10|deny|Any|Any|all|
+|4|reject|Any|Any|23|
+|5|accept|LAN|LAN local|53|
+|6|accept|192.168.0.100/32|LAN|23|
+|7|deny|Any|Any|all|
 <!--|8|accept|LAN local|LAN|67|-->
 
-Regel 4 braucht man aufgrund der default-Regel 10 nicht extra, da alle Verbindungen standardmäßig verboten werden
+FTP-Regel für Deny braucht man aufgrund der default-Regel 10 nicht extra, da alle Verbindungen standardmäßig verboten werden.
+Accept auf LAN zu LAN nicht notwendig, wenn keine VLANs konfiguriert sind -> Kommunikation über Switches, nicht über Router
+
+### Troubleshooting
+
+Mit Friewall vom Webinterface ausgeschlossen?
+
+-> TeraTerm -> Firewall -> Adminstatus = disabled
