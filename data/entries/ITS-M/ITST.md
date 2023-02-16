@@ -25,6 +25,11 @@ title: IT-Sicherheit Theorie 12
     - [Beispiel](#beispiel)
   - [Hybride Verschlüsselung](#hybride-verschlüsselung)
   - [PKI](#pki)
+- [Firewall](#firewall)
+  - [Firewall in der DMZ](#firewall-in-der-dmz)
+    - [Portforwarding](#portforwarding)
+    - [Einstufige Firewall](#einstufige-firewall)
+    - [Zweistufige Firewall](#zweistufige-firewall)
 
 ---
 
@@ -180,3 +185,31 @@ Eine Nachricht, die mit einem Schlüssel eines Schlüsselpaares verschlüsselt w
 Public Key Infrastructure
 
 ![PKI](../images/PKIAblauf.png)
+
+---
+
+## Firewall
+
+### Firewall in der DMZ
+
+#### Portforwarding
+
+|Vorteile|Nachteile|
+|--|--|
+|Unkomplizierte Einrichtung|keine Authentifizierung|
+|Keine extra Hardware (Firewall) nötig|Server steht im selben Natz wie andere Geräte im LAN|
+
+#### Einstufige Firewall
+
+|Vorteile|Nachteile|
+|--|--|
+|Einfache Konfiguration im Vergleich zu mehrstufigen Varianten|nur für Netzwerke mit niedrigen Sicherheitsanforderungen|
+|übliche Vorteile einer Firewall||
+
+#### Zweistufige Firewall
+
+|Vorteile|Nachteile|
+|--|--|
+|eigenes Netz für Server|hoher Konfigurationsaufwand|
+|hohe Sicherheit durch Netzwerktrennung & mindestens 2 Firewalls (z.B. andere Hersteller)||
+|Verteilung der Last||

@@ -50,6 +50,7 @@ title: IT-Systeme 12
   - [Einrichten](#einrichten)
 - [Virtualisierung](#virtualisierung)
   - [Realisierungsmöglichkeiten](#realisierungsmöglichkeiten)
+- [IPv6](#ipv6)
 
 ---
 
@@ -400,3 +401,5 @@ Einzelne Betriebssysteme können gemeinsam, voneinander isoliert auf eine Hardwa
 ### Realisierungsmöglichkeiten
 
 ![Virtualisierung](../images/Virtualisierung.png)
+
+## IPv6

@@ -66,13 +66,13 @@ title: IT-Sicherheit Praxis 12
 |5|accept|LAN|LAN local|53|
 |6|accept|192.168.0.100/32|LAN|23|
 |7|deny|Any|Any|all|
-<!--|8|accept|LAN local|LAN|67|-->
+<!--8|accept|LAN local|LAN|67-->
 
 FTP-Regel für Deny braucht man aufgrund der default-Regel 10 nicht extra, da alle Verbindungen standardmäßig verboten werden.
 Accept auf LAN zu LAN nicht notwendig, wenn keine VLANs konfiguriert sind -> Kommunikation über Switches, nicht über Router
 
 ### Troubleshooting
 
-Mit Friewall vom Webinterface ausgeschlossen?
+Mit Firewall vom Webinterface ausgeschlossen?
 
 -> TeraTerm -> Firewall -> Adminstatus = disabled
