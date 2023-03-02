@@ -403,3 +403,5 @@ Einzelne Betriebssysteme können gemeinsam, voneinander isoliert auf eine Hardwa
 ![Virtualisierung](../images/Virtualisierung.png)
 
 ## IPv6
+
+- IPv6 unterstützt nur Automatismen bis zu einer Netzmaske von /64

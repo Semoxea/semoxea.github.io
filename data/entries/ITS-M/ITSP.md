@@ -8,7 +8,8 @@ title: IT-Sicherheit Praxis 12
   - [DHCP](#dhcp)
   - [SNMP](#snmp)
 - [Firewall](#firewall)
-  - [Access List](#access-list)
+  - [Access List Test 1](#access-list-test-1)
+  - [Access List DMZ](#access-list-dmz)
   - [Troubleshooting](#troubleshooting)
 
 ---
@@ -31,7 +32,10 @@ title: IT-Sicherheit Praxis 12
 - Einloggen mit admin admin
 - admin PW ändern (z.B. Admin12345)
 - NAT für Schnittstelle en1_4 aktivieren
-- LAN -> IP Configuration -> en1_4 Address Mode DHCP (automatische Zuweisung der Router-IP & DNS-Adressmitteilung)s
+- LAN -> IP Configuration -> en1_4 Address Mode DHCP (automatische Zuweisung der Router-IP & DNS-Adressmitteilung)
+- IP Pools für die Schnittstellen definieren
+- DHCP für Schnittstellen aktivieren
+- 
 - Firewall -> Schnittstellen -> Gruppierungen können angelegt werden für Schnittstellen
 - Firewall -> Richtlinien -> Aktivieren
   
@@ -55,7 +59,7 @@ title: IT-Sicherheit Praxis 12
 
 ## Firewall
 
-### Access List
+### Access List Test 1
 
 ||Action|Source|Destination|Service(Port)|
 |--|--|--|--|--|
@@ -70,6 +74,10 @@ title: IT-Sicherheit Praxis 12
 
 FTP-Regel für Deny braucht man aufgrund der default-Regel 10 nicht extra, da alle Verbindungen standardmäßig verboten werden.
 Accept auf LAN zu LAN nicht notwendig, wenn keine VLANs konfiguriert sind -> Kommunikation über Switches, nicht über Router
+
+### Access List DMZ
+
+
 
 ### Troubleshooting
 
