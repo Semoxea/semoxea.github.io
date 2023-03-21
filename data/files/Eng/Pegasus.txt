@@ -1,0 +1,14 @@
+Pegasus
+Pegasus is spyware developed by the israelian Company "NSO Group".
+The company was founded in 2010 and specializes in the development of Cyberweapons.
+Their software doesn't get distributed to private persons, only to "authorized governments", as their intents are the prevention of criminal activities and terrorism.
+Pegasus was first discovered in 2016 by a Lab of the Canadian University Toronto. In that time, Pegasus infected devices via spear-phishing (clicking on links in messages to install the malware).
+
+The company was sued twice for exploiting security leaks to install Pegasus on thousands of devices. (Whatsapp/Facebook & Apple)
+Pegasus is a spyware developed to collect sensible data, primarily focused on mobile devices.
+Federal Constitutional Court stated that Pegasus would be unconstitutional to use with the infiltration of digital endpoints.
+
+
+https://nordvpn.com/de/blog/was-ist-pegasus-spyware/
+https://www.theguardian.com/news/2021/jul/18/what-is-pegasus-spyware-and-how-does-it-hack-phones
+https://de.wikipedia.org/wiki/Pegasus_(Spyware)
