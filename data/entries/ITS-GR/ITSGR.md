@@ -51,6 +51,23 @@ title: IT-Systeme 12
 - [Virtualisierung](#virtualisierung)
   - [Realisierungsmöglichkeiten](#realisierungsmöglichkeiten)
 - [IPv6](#ipv6)
+- [SAN / NAS / DAS](#san--nas--das)
+  - [SAN](#san)
+    - [Vorteile](#vorteile)
+    - [Nachteile](#nachteile)
+    - [Protokolle](#protokolle)
+  - [DAS](#das)
+    - [Mögliche Medien](#mögliche-medien)
+    - [Vorteile](#vorteile-1)
+    - [Nachteile](#nachteile-1)
+    - [Schnittstellen](#schnittstellen)
+    - [Anschaffung und Administration](#anschaffung-und-administration)
+  - [NAS](#nas)
+    - [Mögliche Medien](#mögliche-medien-1)
+    - [Vorteile](#vorteile-2)
+    - [Nachteile](#nachteile-2)
+    - [Schnittstellen](#schnittstellen-1)
+    - [Administration und Einsatzgebiete](#administration-und-einsatzgebiete)
 
 ---
 
@@ -405,3 +422,88 @@ Einzelne Betriebssysteme können gemeinsam, voneinander isoliert auf eine Hardwa
 ## IPv6
 
 - IPv6 unterstützt nur Automatismen bis zu einer Netzmaske von /64
+
+## SAN / NAS / DAS
+
+- SAN: Storage Area Network
+- NAS: Network Attached Storage
+- DAS: Direct Attached Storage
+
+![Storage-Arten](../images/Storage.png)
+
+### SAN
+
+#### Vorteile
+
+- Schnelle Datenübertragung getrennt vom normalen Netzwerk
+- höchste Verfügbarkeit und Leistung
+- 
+
+#### Nachteile
+
+#### Protokolle
+
+### DAS
+
+#### Mögliche Medien
+
+- Herkömmliche Festplatten (HDDs)
+- SSDs oder Flash-Speicher
+
+#### Vorteile
+
+- günstig in der Anschaffung
+- hohe Datentransferrate (Datendurchsatz)
+- Geringe Komplexität
+
+#### Nachteile
+
+-
+
+#### Schnittstellen
+
+- eSATA
+- Firmwire
+- ATA / ATAPI
+- SCSI
+- USB
+
+#### Anschaffung und Administration
+
+### NAS
+
+#### Mögliche Medien
+
+- HDDs
+- SSDs
+- Hybride Festplatten (SSHD)
+- Optische Medien (CDs)
+
+#### Vorteile
+
+- günstig
+- Zugriff durch mehrere Leute
+- leicht konfigurierbar und administrierbar
+- versatil (nicht beschränkt auf ein Protokoll)
+- Möglichkeit auf RAID etc.
+- bessere Performance als DAS
+
+#### Nachteile
+
+- begrenzt skalierbar
+- nur eine Art von Speichermedium zeitgleich nutzbar
+- nicht für größere Datenmengen ausgelegt (z.B. 100TB)
+- nutzt bestehendes Netzwerk für Backups
+
+#### Schnittstellen
+
+- Ethernet / RJ45
+- USB
+- Power Supply
+
+#### Administration und Einsatzgebiete
+
+- Kleinere Firmen
+- Mittelständische Unternehmen
+- Homelab
+- Online oder Lokale Administration
