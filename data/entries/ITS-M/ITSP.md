@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IT-Sicherheit Praxis 12
+title: IT-Sicherheit Praxis
 ---
 - [VMs](#vms)
   - [Routerkonfiguration](#routerkonfiguration)

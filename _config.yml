@@ -9,9 +9,9 @@ collections:
     permalink: /:path/:name
 
 # Setup
-title:            Mitschrift
-tagline:          'IFS12D'
-description:      'Dateien & Mitschriften IFS12D'
+title:            FI Stoff
+tagline:          'Stoffsammlung'
+description:      'Stoffsammlung für Fachinformatiker in der Ausbildung'
 url:              https://semoxea.github.io/
 baseurl:          ""
 github_username:  jekyll

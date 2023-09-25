@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IT-Sicherheit Theorie 12
+title: IT-Sicherheit Theorie
 ---
 
 - [Datenschutz](#datenschutz)

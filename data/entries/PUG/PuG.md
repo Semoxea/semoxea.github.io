@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Politik und Gesellschaft 12
+title: Politik und Gesellschaft
 ---
 
 - [Wegwerfgesellschaft](#wegwerfgesellschaft)

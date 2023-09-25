@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IT-Systeme 12
+title: IT-Systeme
 ---
 
 - [Betriebssysteme](#betriebssysteme)
