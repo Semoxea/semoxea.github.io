@@ -2,11 +2,14 @@
 markdown:         redcarpet
 highlighter:      pygments
 
+
+permalink: /:title/
+
 # Permalinks
-collections:
-  my_collection:
-    output: true
-    permalink: /:path/:name
+# collections:
+#   my_collection:
+#     output: true
+#     permalink: /title
 
 # Setup
 title:            FI Stoff
@@ -14,7 +17,7 @@ tagline:          'Stoffsammlung'
 description:      'Stoffsammlung für Fachinformatiker in der Ausbildung'
 url:              https://semoxea.github.io/
 baseurl:          ""
-github_username:  jekyll
+github_username:  Semoxea
 
 paginate:         5
 

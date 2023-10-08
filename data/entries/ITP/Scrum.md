@@ -1,6 +1,7 @@
 ---
 layout: page
-title: SCRUM
+title: Scrum
+#slug: scrum
 ---
 
 ## SCRUM
