@@ -1,23 +1,19 @@
 ---
-layout: page
-permalink: files
+#layout: page
+#permalink: files
 title: Dateien
 #slug: Dateien
 ---
 
-## Index
+<!-- TOC -->
 
-- [Index](#index)
-  - [Englisch](#englisch)
-  - [Politik und Gesellschaft](#politik-und-gesellschaft)
-  - [IT-Systeme (Gaull \& Raschka)](#it-systeme-gaull--raschka)
-  - [IT-Systeme (Morgott)](#it-systeme-morgott)
-  - [IT-Projekt](#it-projekt)
-  - [PlusD](#plusd)
+- [Politik und Gesellschaft](#politik-und-gesellschaft)
+- [IT-Systeme (Gaull \& Raschka)](#it-systeme-gaull--raschka)
+- [IT-Systeme (Morgott)](#it-systeme-morgott)
+- [IT-Projekt](#it-projekt)
+- [PlusD](#plusd)
 
----
-
-### Englisch
+<!-- /TOC -->
 
 - [Jobangebot Text](files/Eng/ApplicationText.pdf)
 - [Jobangebot AB](files/Eng/ApplicationAB.pdf)
